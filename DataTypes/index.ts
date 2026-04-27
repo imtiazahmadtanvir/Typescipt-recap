@@ -17,6 +17,7 @@ isLoggedIn= true;
 //using concat method to concatenate firstName and LastName and assign it to fullName variable
 fullName=firstName.concat(" ", LastName)
 
+console.log(fullName.split(" ")); // split method to split fullName into an array of firstName and LastName
 
 
 console.log(`User ID: ${userId}\nfull Name: ${fullName}\nLast Name: ${LastName}\nAge: ${age} \nIs Logged In: ${isLoggedIn}`);
